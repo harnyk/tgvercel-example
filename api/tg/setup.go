@@ -2,11 +2,12 @@ package handler
 
 import (
 	"net/http"
-	"telegram-bot/pkg/tgvercel"
+
+	"github.com/harnyk/tgvercel"
 )
 
 var tgv = tgvercel.New(tgvercel.DefaultOptions())
 
-func TgWebhookHandler(w http.ResponseWriter, r *http.Request) {
-	tgv.Handler(w, r)
+func SetupHandler(w http.ResponseWriter, r *http.Request) {
+	tgv.HandleSetup(w, r)
 }
