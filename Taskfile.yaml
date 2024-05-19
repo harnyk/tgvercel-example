@@ -1,0 +1,7 @@
+version: "3"
+
+tasks:
+  webhook:
+    cmds:
+      - vercel env pull ./.env
+      - go run ./internal/cmd/setup-webhook/main.go
