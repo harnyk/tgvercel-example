@@ -2,7 +2,8 @@ package handler
 
 import (
 	"net/http"
-	"telegram-bot/pkg/botlogic"
+
+	"github.com/harnyk/tgvercel-example/pkg/botlogic"
 )
 
 func WebhookHandler(w http.ResponseWriter, r *http.Request) {

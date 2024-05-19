@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 	"os"
-	"telegram-bot/pkg/botlogic"
 
 	"github.com/harnyk/tgvercel"
+	"github.com/harnyk/tgvercel-example/pkg/botlogic"
 	"github.com/joho/godotenv"
 )
 

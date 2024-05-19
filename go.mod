@@ -1,4 +1,4 @@
-module telegram-bot
+module github.com/harnyk/tgvercel-example
 
 go 1.20
 
