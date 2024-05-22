@@ -4,5 +4,7 @@ github.com/harnyk/tgvercel v0.0.0-20240519144303-b44bf1bf89ea h1:0hfwfcEILCJlF+1
 github.com/harnyk/tgvercel v0.0.0-20240519144303-b44bf1bf89ea/go.mod h1:5ABD1k9TAUvfvY5oWr/YUl4e0vsuQKW674CKioKEgsk=
 github.com/harnyk/tgvercel v0.0.1 h1:QRwI7bV/Luaa0kRxQsQ6kqxO04EMTK7ukGFEuCCaGbM=
 github.com/harnyk/tgvercel v0.0.1/go.mod h1:5ABD1k9TAUvfvY5oWr/YUl4e0vsuQKW674CKioKEgsk=
+github.com/harnyk/tgvercel v0.1.0-next.0 h1:Fa3g5H7zAhsORjn1bXgZUOR8IHaZJPrMqH/892mU2ZM=
+github.com/harnyk/tgvercel v0.1.0-next.0/go.mod h1:5ABD1k9TAUvfvY5oWr/YUl4e0vsuQKW674CKioKEgsk=
 github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
 github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
