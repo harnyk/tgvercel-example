@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/harnyk/tgvercel"
 	"github.com/harnyk/tgvercel-example/pkg/botlogic"
+	"github.com/harnyk/tgvercelbot"
 	"github.com/joho/godotenv"
 )
 
@@ -17,7 +17,7 @@ func main() {
 
 	token := os.Getenv("TELEGRAM_TOKEN")
 
-	err = tgvercel.RunLocal(token, botlogic.OnUpdate)
+	err = tgvercelbot.RunLocal(token, botlogic.OnUpdate)
 	if err != nil {
 		log.Fatalf("failed to run locally: %v", err)
 	}
